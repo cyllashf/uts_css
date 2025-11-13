@@ -1,0 +1,113 @@
+/* --- GENERAL STYLE --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #c0b189; /* soft pink background */
+    color: #332d26 ;
+}
+
+/* --- HEADER --- */
+header {
+    background-color: #f0d0a1; /* soft pink */
+    text-align: center;
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+/* --- NAVIGATION MENU --- */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color:  #332d26 ;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+nav a:hover {
+    background-color:  #332d26 ;
+    color: #c0b189;
+}
+
+/* --- MAIN CONTENT (Flexbox layout) --- */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+/* Section & Aside card style */
+section, aside {
+    background-color:  #f0d0a1;;
+    padding: 25px;
+    border-radius: 20px;
+    width: 48%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border:5px #332d26;
+}
+
+/* SIDEBAR STYLING */
+.sidebar {
+    background-color:  #f0d0a1;;
+    border: 5px solid  #332d26;;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 8px;
+}
+
+
+/* Foto profil */
+.profile-img {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 6px solid #332d26;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #332d26;
+    border-radius: 40px 40px 0 0;
+}
+
+/* Tombol sosial media */
+.social-buttons a {
+    text-decoration: none;
+    background-color:#332d26;
+    padding: 8px 14px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.social-buttons a:hover {
+    background-color: #e76892;
+}
+
+/* COMMENT EXAMPLE */
+/* Mengatur layout utama agar sejajar (Flexbox) */
+.img {
+  width: 100px;  
+}
